@@ -3,6 +3,9 @@
 
 TakeMeToDinner! has been created to bring people together in dinner dates!  Simply create a person profile in the website, listing your preferred restaurants and wait for messages from other users inviting you to go out on a dinner date.
 
+Follow this link to access the  [presentation](https://docs.google.com/presentation/d/1P-z2EgPEMKeqQ9i8zOfBQQJ4x8PMYfyv-ms-lFjG80g/edit?usp=sharing) given at class.
+
+
 ## Demo
 Watch a [video demo](https://youtu.be/dKTcadWloh4) of the web application.
 
