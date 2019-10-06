@@ -67,15 +67,7 @@ Watch a [video demo](https://youtu.be/dKTcadWloh4) of the web application.
 The application follows the Model-View-Controller architectural pattern.  Handlebars JS implements the "**V**iew*", while Express JS implements the **C**ontroller code in Javascript.  Sequelize and mySQL database complete the **M**odel. 
 The following interaction diagram shows how the layers talk to each other during execution of the "/" html route (The root document): 
 
-```mermaid
-sequenceDiagram
-index ->> ExpressApp: get("/")
-ExpressApp-->>Eater: findAll()
-Eater ->> ExpressApp : (Eater data)
-ExpressApp ->> index: render(Eater data)
-Note right of Eater: Sequelize,mySQL
-
-```
+!["/" HTML Route ](./doc/root_interaction_UML.JPG)
 
 # How to install your own copy of the application.  
 
