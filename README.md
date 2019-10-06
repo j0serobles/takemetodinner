@@ -1,8 +1,16 @@
-# takemetodinner
-take me to dinner is group project 2
+# TakeMeToDinner!
+
+TakeMeToDinner! has been created to bring people together in dinner dates!  Simply create a person profile in the website, listing your preferred restaurants and wait for messages from other users inviting you to go out on a dinner date.
+
+ 
+
+## Demo
+Watch a [video demo](https://youtu.be/dKTcadWloh4) of the web application.
 
 
-How to install your own copy of the application.  
+
+
+# How to install your own copy of the application.  
 
 This method uses de ```dotenv``` npm package (already saved as a dependency in the package.json file) to save the database connection parameters in a ```.env``` file and read them into 
 the ```process.env``` object, making them available to the application without changing the application code (specifically, the config.js file).
