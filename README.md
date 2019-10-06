@@ -5,6 +5,8 @@ TakeMeToDinner! has been created to bring people together in dinner dates!  Simp
 
 Follow this link to access the  [presentation](https://docs.google.com/presentation/d/1P-z2EgPEMKeqQ9i8zOfBQQJ4x8PMYfyv-ms-lFjG80g/edit?usp=sharing) given at class.
 
+The application has been deployed to [heroku](https://fathomless-river-03862.herokuapp.com/). 
+
 
 ## Demo
 Watch a [video demo](https://youtu.be/dKTcadWloh4) of the web application.
