@@ -5,16 +5,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 $( document ).ready( function() {
 
-  function closeAllLists(elmnt) {
-    /*close all autocomplete lists in the document,
-        except the one passed as an argument:*/
-    var x = document.getElementsByClassName("autocomplete-items");
-    for (var i = 0; i < x.length; i++) {
-      if (elmnt !== x[i] && elmnt !== inp) {
-        x[i].parentNode.removeChild(x[i]);
-      }
-    }
-  }
+
   function addActive(x) {
     /*a function to classify an item as "active":*/
     if (!x) {
@@ -97,6 +88,7 @@ $( document ).ready( function() {
       });
 
     });
+
     /*execute a function presses a key on the keyboard:*/
     inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
@@ -126,6 +118,16 @@ $( document ).ready( function() {
         }
       }
     });
+    function closeAllLists(elmnt) {
+      /*close all autocomplete lists in the document,
+          except the one passed as an argument:*/
+      var x = document.getElementsByClassName("autocomplete-items");
+      for (var i = 0; i < x.length; i++) {
+        if (elmnt !== x[i] && elmnt !== inp) {
+          x[i].parentNode.removeChild(x[i]);
+        }
+      }
+    }
 
     /*execute a function when someone clicks in the document:*/
     document.addEventListener("click", function (e) {

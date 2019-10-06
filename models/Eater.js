@@ -44,5 +44,11 @@ module.exports = function(sequelize, DataTypes) {
       isEmail: true
     }
   });
+
+  Eater.associate = function(models) {
+    //Associating an Eater with Messages.
+    //When an eater is deleted, so are any associated messages
+    Eater.hasMany(models.Message, { onDelete : "cascade" });
+  };
   return Eater;
 };

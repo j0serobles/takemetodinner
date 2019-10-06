@@ -104,7 +104,6 @@ body {
   border-color: rgb(20, 20, 20) !important;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  
 }
 
 .peopleAreaCardTitle {
@@ -121,7 +120,6 @@ body {
   background-color: rgb(56, 56, 56);
   color: white;
   padding: 1%;
-
 }
 .peopleAreaLI {
   background-color: rgb(56, 56, 56);
@@ -152,3 +150,8 @@ body {
   height: 150px !important;
 }
 /* index.hbs drop-down menus end */
+
+/* profile-block.hbs partial elements */
+.card { 
+  background-color : inherit !important;
+}

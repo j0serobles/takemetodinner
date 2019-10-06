@@ -4,6 +4,7 @@
 //  Front-end logic for index.hbs page
 ///////////////////////////////////////////////////////////////////////////////
 $( document ).ready( function() {
+
   // when user clicks "Search" button under "Location" dropdown:
   $("#location-search").on("click", function(event) {
     event.preventDefault();
@@ -25,8 +26,7 @@ $( document ).ready( function() {
     $("#locSearchTermTxt").text("");
   });
 
-
-  console.log ("index.js loaded."); 
+  console.log ("public/js/index.js loaded."); 
 });
 
 
