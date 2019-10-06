@@ -64,7 +64,7 @@ Watch a [video demo](https://youtu.be/dKTcadWloh4) of the web application.
 
 
 ## MVC Architectural Pattern
-The application follows the Model-View-Controller architectural pattern.  Handlebars JS implements the "**V**iew*", while Express JS implements the **C**ontroller code in Javascript.  Sequelize and mySQL database complete the **M**odel. 
+The application follows the Model-View-Controller architectural pattern.  Handlebars JS implements the **V**iew, while Express JS implements the **C**ontroller code in Javascript.  Sequelize and mySQL database complete the **M**odel. 
 The following interaction diagram shows how the layers talk to each other during execution of the "/" html route (The root document): 
 
 !["/" HTML Route ](./doc/root_interaction_UML.JPG)
